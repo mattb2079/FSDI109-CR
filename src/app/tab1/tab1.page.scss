@@ -1,3 +1,35 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+
+ion-card-title{
+  font-size: 16px;
+  color: #1d5d7a;
+}
+
+ion-card-subtitle{
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+ion-card-header{
+  background-color: #f9f9f9;
+}
+
+ion-card-content{
+  border-bottom: 1px solid #154f85b7;
+}
+
+.my-message {
+  background-color: rgb(41, 156, 131);
+
+  ion-card-header,
+  ion-card-contact {
+    background-color: rgb(124, 177, 165);
+  }
+
+  ion-card-title{
+    text-align: right;}
+}
